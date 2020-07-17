@@ -159,7 +159,7 @@ batchSize = 15
 
 prompts = []
 words = 300
-attempts = 2
+attempts = 3
 
 @app.route('/')
 def index():
