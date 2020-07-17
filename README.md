@@ -1,6 +1,6 @@
 # GPT-2-EssayWriter
 
-Essayai uses the [GPT-2](https://github.com/openai/gpt-2) medium model created OpenAI. For simple access to the model I used [HuggingFace.](https://huggingface.co) It contains a webscraper made in selenium to gather an infromation corpus for training
+GPT-2-EssayWriter uses the [GPT-2](https://github.com/openai/gpt-2) medium model created OpenAI. For simple access to the model I used [HuggingFace.](https://huggingface.co) It contains a webscraper made in selenium to gather an infromation corpus for training
 
 ## Usage
 
