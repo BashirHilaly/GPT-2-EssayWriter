@@ -1,22 +1,15 @@
+import os, re, numpy as np, torch, datetime, nltk
 from flask import Flask, render_template, url_for, request
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
-import os
-import re
-import numpy as np
-import os
-import re
-import torch
 from transformers import GPT2Tokenizer, GPT2LMHeadModel, GPT2Model
 from transformers import AdamW, WarmUp, get_linear_schedule_with_warmup
 from torch.utils.data import Dataset, DataLoader
 from torch.utils.tensorboard import SummaryWriter
-import datetime
 from tqdm import tqdm
-import nltk
 from nltk import tokenize
 from nltk.tokenize import sent_tokenize
 dt= datetime.datetime.now().strftime('%Y-%b-%d-%H-%M-%S')
