@@ -1,0 +1,5 @@
+selenium
+nltk
+torch
+numpy
+transformers
